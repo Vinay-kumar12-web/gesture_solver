@@ -1,54 +1,5 @@
+streamlit>=1.0.0
 opencv-python>=4.5.0
+mediapipe>=0.8.9
 numpy>=1.18.0
 pyttsx3>=2.90
-requirements.txt is a text file that lists all the Python libraries your project needs to run. It's like a checklist so anyone who clones your project can install exactly what they need with one single command.
-
-📢 Why it's important?
-✅ Helps others (and future-you) quickly install dependencies.
-
-✅ Required for deployment, packaging, and collaboration.
-
-✅ Keeps your project clean, documented, and professional.
-
-🛠 How to Create It?
-👉 Run this in your terminal inside the project folder:
-
-bash
-Copy
-Edit
-pip freeze > requirements.txt
-This will auto-save all installed packages into requirements.txt.
-But we can also write it manually if we want it minimal and clean.
-
-✨ Clean Version for Your Project:
-Here’s a clean and simple requirements.txt for your gesture-controlled math solver:
-
-txt
-Copy
-Edit
-opencv-python>=4.5.0
-numpy>=1.18.0
-pyttsx3>=2.90
-You can copy that directly into your file.
-
-🚀 How to Use It?
-After cloning your GitHub repo, anyone can install all required libraries like this:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Boom 💥— environment ready!
-
-💡 Pro Tips:
-If you use extra stuff like mediapipe, matplotlib, etc. in the future, just add them to this file.
-
-Keep it lightweight — don't dump 100 unnecessary libraries in it.
-
-If you use a virtual environment, it’s even better to freeze from that.
-
-✅ Example Commit Message When Adding It:
-arduino
-Copy
-Edit
-✅ Added requirements.txt for easy setup
