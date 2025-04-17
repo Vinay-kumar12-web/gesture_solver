@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+env/
+venv/
+ENV/
+
+# VSCode and PyCharm IDE settings
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Python egg info
+*.egg-info/
+
+# Test cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints (in case)
+.ipynb_checkpoints/
+
+# If you ever add dotenv or config files
+.env
+
+# PyInstaller output
+dist/
+build/
